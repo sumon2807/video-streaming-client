@@ -3,12 +3,14 @@ import { useDispatch, useSelector } from "react-redux";
 import { increment, decrement } from "../../../redux/features/counter";
 
 const Home = () => {
+  //count State
   const count = useSelector((state) => state.count);
   const dispatch = useDispatch();
-
+  //increment Handler
   const incrementHandler = () => {
     dispatch(increment());
   };
+  //deccrement Handler
   const decrementHandler = () => {
     dispatch(decrement());
   };
@@ -16,7 +18,9 @@ const Home = () => {
     <div>
       <div className="bg-gray-50 shadow-xl rounded max-w-sm mx-auto my-10">
         <h1 className="text-4xl text-center">Hallo programars</h1>
-        <h1 className="text-3xl font-bold text-center pt-4 ">Count {count.count}</h1>
+        <h1 className="text-3xl font-bold text-center pt-4 ">
+          Count {count.count}
+        </h1>
         <div className="card-body  ">
           <button className="btn btn-secondary" onClick={incrementHandler}>
             Increment
