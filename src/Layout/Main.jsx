@@ -5,13 +5,13 @@ import NavBar from "../Pages/Shared/NavBar/NavBar";
 
 const Main = () => {
   return (
-    <div>
+    <>
       <NavBar />
-      <div className="min-h-[80vh]">
+        <div className=" min-h-[80vh]">
         <Outlet />
-      </div>
+        </div>
       <Footer />
-    </div>
+    </>
   );
 };
 
