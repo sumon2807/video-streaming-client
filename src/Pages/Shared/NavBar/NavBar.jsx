@@ -12,6 +12,7 @@ const NavBar = () => {
           <option value="natok">Natok</option>
           <option value="movie">Movie</option>
           <option value="cartoon">Cartoon</option>
+          <option value="cartoon">Horror</option>
         </select>
       </li>
       <li>
