@@ -42,7 +42,7 @@ ul li:hover{
   position: relative;
   width: 100%;
   min-height: 100vh;
-  padding: 0 100px;
+  padding: 0 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -109,10 +109,10 @@ ul li:hover{
     background: #f25a5a;
 }
 
-/*==============carousel slider=========*/
+/*==============banner carousel slider=========*/
 
 .banner .carousel-box{
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.3);
   box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
   border: 1px solid rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(2px);
@@ -129,7 +129,7 @@ ul li:hover{
   max-width: 235px;
   height: 250px;
   border-radius: 10px;
-  transform: translateX(4px) translateY(-35px);
+  transform: translateX(10px) translateY(-35px);
   object-fit: cover;
   object-position: center;
 }
